@@ -7,7 +7,7 @@ import theano
 import theano.tensor as T
 from sklearn.metrics import accuracy_score
 
-X_df = pd.read_csv('/Users/pradeep/Jupyter Notebooks/datasets_IRIS.csv')
+X_df = pd.read_csv('datasets_IRIS.csv')
 Y = X_df[['species']]
 X = X_df.loc[:,X_df.columns[0:4]]
 
